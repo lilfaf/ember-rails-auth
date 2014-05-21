@@ -1,0 +1,11 @@
+<div class="col-md-3">
+  <div class="list-group">
+    {{#each controller}}
+    {{#link-to "users.show" this class="list-group-item"}}{{email}}{{/link-to}}
+    {{/each}}
+  </div>
+</div>
+
+<div class="col-md-9">
+  {{outlet}}
+</div>
