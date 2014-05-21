@@ -39,7 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-gem 'doorkeeper'
+gem 'doorkeeper', github: 'lilfaf/doorkeeper'
 gem 'active_model_serializers'
 gem 'ember-rails'
 gem 'ember-source'

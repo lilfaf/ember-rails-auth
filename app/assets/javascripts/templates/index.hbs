@@ -1,1 +1,5 @@
 <h1>Home</h1>
+
+{{#if session.isAuthenticated}}
+  <p>Signed in as {{ session.currentUser.email }}</p>
+{{/if}}

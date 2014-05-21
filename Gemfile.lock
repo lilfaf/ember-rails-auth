@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/lilfaf/doorkeeper.git
+  revision: d3e9797d50cbfa1b5af92cb98c04d3e4dd41b974
+  specs:
+    doorkeeper (1.2.0)
+      railties (>= 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,8 +58,6 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    doorkeeper (1.2.0)
-      railties (>= 3.1)
     ember-data-source (1.0.0.beta.7)
       ember-source
     ember-rails (0.15.0)
@@ -155,7 +160,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
   devise
-  doorkeeper
+  doorkeeper!
   ember-rails
   ember-source
   ember_simple_auth-rails
